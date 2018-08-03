@@ -25,7 +25,8 @@ public class helloworld {
 		
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter your name: ");
-		System.out.print(input.next());
+		System.out.print(input.nextLine());
+		input.close();
 	}
 
 }
