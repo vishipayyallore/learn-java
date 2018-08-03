@@ -1,5 +1,7 @@
 package first.program;
 
+import java.util.Scanner;
+
 public class helloworld {
 
 	public static void main(String[] args) {
@@ -21,7 +23,9 @@ public class helloworld {
 		output = String.format("Number 1: %d Number 2: %d", numberValue, number2Value);
 		System.out.println(output);
 		
-		
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter your name: ");
+		System.out.print(input.next());
 	}
 
 }
