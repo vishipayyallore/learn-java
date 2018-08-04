@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author vpayyalo
- *
- */
-module datatypedemo {
-}
