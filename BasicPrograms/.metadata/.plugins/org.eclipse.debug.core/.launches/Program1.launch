@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/datatypesdemo/src/com/datatypesdemo/main/Program.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.debug.core.appendEnvironmentVariables" value="false"/>
+    <booleanAttribute key="org.eclipse.debug.core.capture_output" value="false"/>
+    <booleanAttribute key="org.eclipse.debug.ui.ATTR_CONSOLE_OUTPUT_ON" value="false"/>
+    <booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="false"/>
+    <listAttribute key="org.eclipse.jdt.launching.CLASSPATH"/>
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.datatypesdemo.main.Program"/>
+    <listAttribute key="org.eclipse.jdt.launching.MODULEPATH"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="datatypesdemo"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+</launchConfiguration>
