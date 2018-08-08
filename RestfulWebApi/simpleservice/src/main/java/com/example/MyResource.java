@@ -1,4 +1,4 @@
-package com.learn.java;
+package com.example;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
