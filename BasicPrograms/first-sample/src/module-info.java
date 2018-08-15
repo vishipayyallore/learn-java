@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author vpayyalo
+ * @author Viswanatha Swamy
  *
  */
 module firstsample {

@@ -4,7 +4,7 @@
 package com.demotypesdemo;
 
 /**
- * @author vpayyalo
+ * @author Viswanatha Swamy
  *
  */
 public class StartMe {
