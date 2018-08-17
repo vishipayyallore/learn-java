@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/demotypesdemo/src/com/demotypesdemo/StartMe.java"/>
+        <listEntry value="/hwartifactid/src/main/java/hwgroupid/hwartifactid/App.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
     </listAttribute>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
-    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.demotypesdemo.StartMe"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="demotypesdemo"/>
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="hwgroupid.hwartifactid.App"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="hwartifactid"/>
 </launchConfiguration>
