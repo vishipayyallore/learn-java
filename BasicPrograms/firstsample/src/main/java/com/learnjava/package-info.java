@@ -5,5 +5,4 @@
  * @author Viswanatha Swamy
  *
  */
-module firstsample {
-}
+package com.learnjava;
