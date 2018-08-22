@@ -11,11 +11,16 @@ import java.util.UUID;
  */
 public class Person {
 
-	public UUID Id;
+	public UUID Id = UUID.randomUUID();
 	
-	public String Name;
+	public String Name = "No Name";
 	
-	public byte Age;
+	public byte Age = 10;
 	
-	public float Salary;
+	public float Salary = 25000.00f;
+	
+	@Override
+    public String toString() {
+        return String.format("Person Details----- \nId = %s \nName = %s \nAge = %b \nSalary = %f", Id, Name, Age, Salary);
+    }
 }
