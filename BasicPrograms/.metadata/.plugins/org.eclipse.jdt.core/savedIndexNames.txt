@@ -6,6 +6,5 @@ INDEX VERSION 1.131+C:\LordKrishna\GitHub\learn-java\BasicPrograms\.metadata\.pl
 4196909158.index
 1398658988.index
 3352527287.index
-3805124408.index
 4116761988.index
 1934883931.index
