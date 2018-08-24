@@ -3,47 +3,41 @@
  */
 package com.learnjava.persondemo;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
 import com.learnjava.persondemo.models.Person;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
 
 
 /**
  * @author Viswanatha Swamy
  *
  */
-public class PersonTest 
-	extends TestCase {
+public class PersonTest {
 	
 	/**
      * Create the test case
      *
      * @param testName name of the test case
      */
-    public PersonTest( String testName )
+    public PersonTest( )
     {
-        super( testName );
     }
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( PersonTest.class );
-    }
     
-
     /**
      * Rigorous Test :-)
      */
+    @Test
     public void personShouldHaveDefault18Years()
     {
     	Person person = new Person();
-    	// assertEquals(18, person.Age);
-        assertTrue( true );
+    	assertEquals(18, person.Age);
+    	assertEquals("No Name", person.Name);
+    	assertEquals(25000.00f, person.Salary, 0f);
     }
     
 }

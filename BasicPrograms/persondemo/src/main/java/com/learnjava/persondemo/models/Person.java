@@ -15,7 +15,7 @@ public class Person {
 	
 	public String Name = "No Name";
 	
-	public byte Age = 10;
+	public byte Age = 18;
 	
 	public float Salary = 25000.00f;
 	
