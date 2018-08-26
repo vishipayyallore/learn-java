@@ -21,6 +21,6 @@ public class Person {
 	
 	@Override
     public String toString() {
-        return String.format("Person Details----- \nId = %s \nName = %s \nAge = %b \nSalary = %f", Id, Name, Age, Salary);
+        return String.format("Person Details----- \nId = %s \nName = %s \nAge = %d \nSalary = %f", Id, Name, Age, Salary);
     }
 }
