@@ -5,4 +5,5 @@
     <fullyQualifiedTypeName name="java.util.UUID"/>
     <fullyQualifiedTypeName name="com.learnjava.persondemo.models.Person"/>
     <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="com.learnjava.persondemo.models.Employee"/>
 </qualifiedTypeNameHistroy>
