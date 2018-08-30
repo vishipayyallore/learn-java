@@ -29,7 +29,14 @@ public class App
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Your Name: ");
         person.Name = input.nextLine();
-        System.out.println(String.format("Name = %s", person.Name));
+        
+        System.out.print("Enter Your Age: ");
+        person.Age = input.nextByte();
+        
+        System.out.print("Enter Your Salary: ");
+        person.Salary = input.nextFloat();
+
+        System.out.println(String.format("Name = %s Age = %s Salary = %f", person.Name, person.Age, person.Salary));
         
         
         System.out.println("\n\nPress any key ...");
