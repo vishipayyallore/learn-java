@@ -1,5 +1,7 @@
 package com.learnjava.persondemo;
 
+import java.util.Scanner;
+
 import com.learnjava.persondemo.models.*;
 
 /**
@@ -23,5 +25,13 @@ public class App
         
         person.Age = 37;
         System.out.println(String.format("Person Age: %d", person.Age));
+        
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter Your Name: ");
+        person.Name = input.nextLine();
+        System.out.println(String.format("Name = %s", person.Name));
+        
+        
+        System.out.println("\n\nPress any key ...");
     }
 }
