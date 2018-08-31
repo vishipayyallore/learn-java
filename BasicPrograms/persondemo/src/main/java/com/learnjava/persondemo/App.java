@@ -36,6 +36,8 @@ public class App
         System.out.print("Enter Your Salary: ");
         person.Salary = input.nextFloat();
 
+        input.close();
+        
         System.out.println(String.format("Name = %s Age = %s Salary = %f", person.Name, person.Age, person.Salary));
         
         
