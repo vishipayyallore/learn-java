@@ -2,6 +2,7 @@ package com.learnjava.persondemo;
 
 import java.util.Scanner;
 
+import com.learnjava.common.IEmployee;
 import com.learnjava.persondemo.models.*;
 
 /**
@@ -40,6 +41,8 @@ public class App
         
         System.out.println(String.format("Name = %s Age = %s Salary = %f", person.Name, person.Age, person.Salary));
         
+        IEmployee employee = new Programmer();
+        System.out.println(employee);
         
         System.out.println("\n\nPress any key ...");
     }

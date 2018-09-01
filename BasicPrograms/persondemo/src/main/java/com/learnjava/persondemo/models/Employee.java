@@ -3,6 +3,8 @@ package com.learnjava.persondemo.models;
 
 import java.util.UUID;
 
+import com.learnjava.common.IEmployee;
+
 /**
  * @author Viswanatha Swamy
  *
@@ -21,6 +23,6 @@ public class Employee implements IEmployee {
 	
 	@Override
     public String toString() {
-        return String.format("Person [Id: %s, Name: %s, Age: %d, Salary = %f]", Id, FirstName, Age, Salary);
+        return String.format("Employee [Id: %s, Name: %s, Age: %d, Salary = %f]", Id, FirstName, Age, Salary);
     }
 }
