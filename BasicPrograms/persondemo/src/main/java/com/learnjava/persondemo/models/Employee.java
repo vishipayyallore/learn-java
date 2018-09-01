@@ -7,7 +7,7 @@ import java.util.UUID;
  * @author Viswanatha Swamy
  *
  */
-public class Employee {
+public class Employee implements IEmployee {
 
 	public UUID Id = UUID.randomUUID();
 	
