@@ -2,6 +2,7 @@ package com.learnjava.persondemo;
 
 import java.util.Scanner;
 
+import com.learnjava.common.EmployeeHelper;
 import com.learnjava.common.IEmployee;
 import com.learnjava.persondemo.models.*;
 
@@ -43,6 +44,10 @@ public class App
         
         IEmployee employee = new Programmer();
         System.out.println(employee);
+        
+        EmployeeHelper employeeHelper = new EmployeeHelper();
+        employeeHelper.DisplayEmployeeDetails(new Programmer());
+        employeeHelper.DisplayEmployeeDetails(new SoftwareEngineer());
         
         System.out.println("\n\nPress any key ...");
     }

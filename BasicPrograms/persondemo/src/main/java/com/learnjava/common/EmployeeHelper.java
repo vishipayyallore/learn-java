@@ -9,8 +9,9 @@ package com.learnjava.common;
  */
 public class EmployeeHelper {
 
-	public void DisplayEmployeeDetails(IEmployee employee) {
+	public EmployeeHelper DisplayEmployeeDetails(IEmployee employee) {
 		System.out.println(employee);
+		return this;
 	}
 	
 }
