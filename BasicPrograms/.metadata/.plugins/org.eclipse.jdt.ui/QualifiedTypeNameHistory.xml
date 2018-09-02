@@ -7,4 +7,5 @@
     <fullyQualifiedTypeName name="com.learnjava.persondemo.models.Employee"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.learnjava.common.IEmployee"/>
+    <fullyQualifiedTypeName name="com.learnjava.common.EmployeeHelper"/>
 </qualifiedTypeNameHistroy>

@@ -27,7 +27,13 @@ public class App
         
         person.Age = 37;
         System.out.println(String.format("Person Age: %d", person.Age));
-        
+
+        // Added Chaining
+        System.out.println("Display of Employee using Helper Class add Chaining too.");
+        EmployeeHelper employeeHelper = new EmployeeHelper();
+        employeeHelper.DisplayEmployeeDetails(new Programmer())
+        	.DisplayEmployeeDetails(new SoftwareEngineer());
+
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Your Name: ");
         person.Name = input.nextLine();
@@ -45,9 +51,6 @@ public class App
         IEmployee employee = new Programmer();
         System.out.println(employee);
         
-        EmployeeHelper employeeHelper = new EmployeeHelper();
-        employeeHelper.DisplayEmployeeDetails(new Programmer());
-        employeeHelper.DisplayEmployeeDetails(new SoftwareEngineer());
         
         System.out.println("\n\nPress any key ...");
     }
