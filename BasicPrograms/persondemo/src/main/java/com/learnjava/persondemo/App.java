@@ -31,7 +31,8 @@ public class App
         // Added Chaining
         System.out.println("Display of Employee using Helper Class add Chaining too.");
         EmployeeHelper employeeHelper = new EmployeeHelper();
-        employeeHelper.DisplayEmployeeDetails(new Programmer())
+        employeeHelper
+        	.DisplayEmployeeDetails(new Programmer())
         	.DisplayEmployeeDetails(new SoftwareEngineer());
 
         Scanner input = new Scanner(System.in);
