@@ -8,4 +8,5 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.learnjava.common.IEmployee"/>
     <fullyQualifiedTypeName name="com.learnjava.common.EmployeeHelper"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
 </qualifiedTypeNameHistroy>

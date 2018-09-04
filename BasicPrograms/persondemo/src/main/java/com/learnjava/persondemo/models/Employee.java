@@ -21,8 +21,10 @@ public class Employee implements IEmployee {
 	
 	public float Salary = 25000.00f;
 	
+	public Project ProjectAssigned = new Project();
+	
 	@Override
     public String toString() {
-        return String.format("Employee [Id: %s, Name: %s, Age: %d, Salary = %f]", Id, FirstName, Age, Salary);
+        return String.format("Employee [Id: %s, Name: %s, Age: %d, Salary = %f \n\tAssigned Project = %s]", Id, FirstName, Age, Salary, ProjectAssigned);
     }
 }

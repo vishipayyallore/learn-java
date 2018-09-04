@@ -13,6 +13,6 @@ public class Programmer extends Employee {
 	
 	@Override
     public String toString() {
-        return String.format("Programmer [Id: %s, Name: %s, Age: %d, Salary: %f Bonus: %f]", Id, FirstName, Age, Salary, Bonus);
+        return String.format("Programmer [Id: %s, Name: %s, Age: %d, Salary: %f Bonus: %f Assigned = %s]", Id, FirstName, Age, Salary, Bonus, ProjectAssigned);
     }
 }
