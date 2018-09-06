@@ -52,7 +52,6 @@ public class App
         IEmployee employee = new Programmer();
         System.out.println(employee);
         
-        
         System.out.println("\n\nPress any key ...");
     }
 }
