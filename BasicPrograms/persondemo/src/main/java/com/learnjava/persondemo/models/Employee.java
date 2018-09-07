@@ -25,6 +25,18 @@ public class Employee implements IEmployee {
 	
 	public Project ProjectAssigned = new Project();
 	
+	
+	public Employee(){
+		System.out.println("***** Employee Constructor *****");
+	}
+	
+	
+	public Employee(String firstName) {
+		this();
+		System.out.println("***** Employee Parameterized Constructor *****");
+		FirstName = firstName;
+	}
+	
 	@Override
     public String toString() {
         return String.format("Employee [Id: %s, Name: %s, Age: %d, Salary = %f Department = %s \n\tAssigned Project = %s]", 

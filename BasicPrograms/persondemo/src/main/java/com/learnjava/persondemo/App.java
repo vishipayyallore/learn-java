@@ -19,6 +19,9 @@ public class App
         Employee employee1 = new Employee();
         System.out.println(employee1);
         
+        Employee employee2 = new Employee("Sri Vari");
+        System.out.println(employee2);
+        
         Person person = new Person();
         String personDetails = String.format("Person Details----- \nId = %s \nName = %s \nAge = %d \nSalary = %f", person.Id, person.Name, person.Age, person.Salary);
         System.out.println(personDetails);
