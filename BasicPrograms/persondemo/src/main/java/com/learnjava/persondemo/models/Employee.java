@@ -30,7 +30,6 @@ public class Employee implements IEmployee {
 		System.out.println("***** Employee Constructor *****");
 	}
 	
-	
 	public Employee(String firstName) {
 		this();
 		System.out.println("***** Employee Parameterized Constructor *****");
@@ -42,4 +41,5 @@ public class Employee implements IEmployee {
         return String.format("Employee [Id: %s, Name: %s, Age: %d, Salary = %f Department = %s \n\tAssigned Project = %s]", 
         		Id, FirstName, Age, Salary, Department, ProjectAssigned);
     }
+	
 }
