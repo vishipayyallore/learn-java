@@ -36,6 +36,10 @@ public class Employee implements IEmployee {
 		FirstName = firstName;
 	}
 	
+	public void DescribeJob() {
+		System.out.println("Software Development");
+	}
+	
 	@Override
     public String toString() {
         return String.format("Employee [Id: %s, Name: %s, Age: %d, Salary = %f Department = %s \n\tAssigned Project = %s]", 
