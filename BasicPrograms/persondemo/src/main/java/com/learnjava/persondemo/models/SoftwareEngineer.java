@@ -20,7 +20,7 @@ public class SoftwareEngineer extends Employee {
 
 	@Override
     public String toString() {
-        return String.format("SoftwareEngineer [Id: %s, Name: %s, Age: %d, Salary: %f Department: %s Bonus: %f]", 
-        		Id, FirstName, Age, Salary, Department, Bonus);
+        return String.format("SoftwareEngineer [Id: %s, Name: %s, Age: %d, Salary: %f Department: %s Bonus: %f Assigned = %s]", 
+        		Id, FirstName, Age, Salary, Department, Bonus, ProjectAssigned);
     }
 }
