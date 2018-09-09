@@ -8,5 +8,5 @@ package com.learnjava.common;
  *
  */
 public interface IEmployee {
-
+	void DescribeJob();
 }

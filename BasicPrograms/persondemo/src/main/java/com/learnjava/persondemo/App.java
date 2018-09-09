@@ -34,9 +34,17 @@ public class App
         // Added Chaining
         System.out.println("Display of Employee using Helper Class add Chaining too.");
         EmployeeHelper employeeHelper = new EmployeeHelper();
+        
+        Programmer programmer1 = new Programmer();
+        SoftwareEngineer softwareEngineer1 = new SoftwareEngineer();
+        
         employeeHelper
-        	.DisplayEmployeeDetails(new Programmer())
-        	.DisplayEmployeeDetails(new SoftwareEngineer());
+        	.DisplayEmployeeDetails(employee2)
+        	.DiscribeEmployeeJobProfile(employee2)
+        	.DisplayEmployeeDetails(programmer1)
+        	.DiscribeEmployeeJobProfile(programmer1)
+        	.DisplayEmployeeDetails(softwareEngineer1)
+        	.DiscribeEmployeeJobProfile(softwareEngineer1);
 
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Your Name: ");

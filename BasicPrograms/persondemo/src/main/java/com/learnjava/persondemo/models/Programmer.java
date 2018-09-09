@@ -12,7 +12,7 @@ public class Programmer extends Employee {
 	public float Bonus = 2500.00f;
 	
 	public void DescribeJob() {
-		System.out.println("***** Programmer Job Profile ******");
+		System.out.println("\n\n***** Programmer Job Profile ******");
 		System.out.println("1. Coding");
 		System.out.println("2. Unit Testing");
 	}

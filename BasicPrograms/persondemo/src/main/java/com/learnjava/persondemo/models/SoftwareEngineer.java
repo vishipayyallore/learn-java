@@ -11,7 +11,7 @@ public class SoftwareEngineer extends Employee {
 	public float Bonus = 2500.00f;
 	
 	public void DescribeJob() {
-		System.out.println("***** Software Engineer Job Profile ******");
+		System.out.println("\n\n***** Software Engineer Job Profile ******");
 		System.out.println("1. Writing Spec Document");
 		System.out.println("2. Coding");
 		System.out.println("3. Unit Testing");

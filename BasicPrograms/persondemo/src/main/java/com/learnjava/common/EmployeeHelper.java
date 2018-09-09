@@ -14,4 +14,9 @@ public class EmployeeHelper {
 		return this;
 	}
 	
+	
+	public EmployeeHelper DiscribeEmployeeJobProfile(IEmployee employee) {
+		employee.DescribeJob();
+		return this;
+	}
 }
