@@ -36,6 +36,8 @@ public class Employee implements IEmployee {
 		FirstName = firstName;
 	}
 	
+	{ System.out.println("---------- Instance Initializer Block of Employee ----------");}
+	
 	public void DescribeJob() {
 		System.out.println("\n\n***** Employee Job Profile ******");
 		System.out.println("1. Software Development");
