@@ -1,6 +1,7 @@
 package com.learnjava.persondemo.models;
 
 
+import java.time.LocalDate;
 import java.util.UUID;
 
 import com.learnjava.common.IEmployee;
@@ -36,7 +37,10 @@ public class Employee implements IEmployee {
 		FirstName = firstName;
 	}
 	
-	{ System.out.println("---------- Instance Initializer Block of Employee ----------");}
+	{ 
+		System.out.println("---------- Instance Initializer Block of Employee ----------");
+		ProjectAssigned = new Project("Distributed Cache", LocalDate.of(2019, 12, 01));
+	}
 	
 	public void DescribeJob() {
 		System.out.println("\n\n***** Employee Job Profile ******");
