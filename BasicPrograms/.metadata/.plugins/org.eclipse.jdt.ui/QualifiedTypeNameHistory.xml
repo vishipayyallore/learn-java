@@ -9,4 +9,7 @@
     <fullyQualifiedTypeName name="com.learnjava.common.IEmployee"/>
     <fullyQualifiedTypeName name="com.learnjava.common.EmployeeHelper"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+    <fullyQualifiedTypeName name="java.text.NumberFormat"/>
 </qualifiedTypeNameHistroy>
