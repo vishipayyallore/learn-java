@@ -7,5 +7,3 @@ java -cp target/datatypesdemo-1.0.jar com.learnjava.datatypesdemo.App
 Using Fitnesse for Testing http://docs.fitnesse.org/FrontPage 
 
 java -jar fitnesse-standalone.jar -p 8099
-
-
