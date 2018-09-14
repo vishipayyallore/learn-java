@@ -6,14 +6,18 @@ import java.util.Locale;
 import java.util.function.Consumer;
 
 /**
- * Hello world!
+ * Data Types Demo
  *
  */
 public class App {
 	public static void main(String[] args) {
-		//
+		
+		// Consumer Variables.
 		Consumer<String> printString = message -> System.out.println(message);
-
+		Consumer<String> printMessageConsumer = (message) -> {
+			System.out.println(String.format("***** %s ******", message));	
+		};
+		
 		System.out.println(String.format("***** Data Types Demo in (%s)*****", System.getProperty("user.dir")));
 		System.out.printf("%,.2f", 12345678.9);
 
@@ -37,10 +41,11 @@ public class App {
 
 		executeLambda("Hello Function Expresseion", printString);
 		executeLambda("Hello Function Again", (message) -> System.out.println(message));
+		executeLambda("Hello Function Expresseion", printMessageConsumer);
 	}
 
 	private static void executeLambda(String value, Consumer<String> method) {
 		method.accept(value);
 	}
-
+	
 }
