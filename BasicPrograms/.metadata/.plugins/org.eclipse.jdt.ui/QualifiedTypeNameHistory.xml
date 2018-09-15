@@ -13,4 +13,10 @@
     <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
     <fullyQualifiedTypeName name="java.text.NumberFormat"/>
     <fullyQualifiedTypeName name="java.util.function.Consumer"/>
+    <fullyQualifiedTypeName name="com.learnjava.datatypesdemo.common.ILightSpeedCalculator"/>
+    <fullyQualifiedTypeName name="com.learnjava.datatypesdemo.models.LightSpeedCalculator"/>
+    <fullyQualifiedTypeName name="junit.framework.Assert"/>
+    <fullyQualifiedTypeName name="org.omg.CosNaming.IstringHelper"/>
+    <fullyQualifiedTypeName name="com.sun.tools.corba.se.idl.constExpr.GreaterThan"/>
+    <fullyQualifiedTypeName name="org.hamcrest.core.IsNot"/>
 </qualifiedTypeNameHistroy>

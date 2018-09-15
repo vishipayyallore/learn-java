@@ -24,10 +24,21 @@ public class LightSpeedCalculatorTests {
 	}
 
 	@Test
-	public void lightSpeedCalculatorShouldReturnValid() {
-		long distanceTravelled = lightSpeedCalculator.calculateDistance(0);
+	public void lightSpeedCalculatorShouldReturnInValid() {
+		int numberOfDays = 0;
 		
-		assertThat(distanceTravelled, is(not(0)));
+		long distanceTravelled = lightSpeedCalculator.calculateDistance(numberOfDays);
+		
+		assertThat(distanceTravelled, is(0L));
+	}
+
+	@Test
+	public void lightSpeedCalculatorShouldReturnValid() {
+		int numberOfDays = 2;
+		
+		long distanceTravelled = lightSpeedCalculator.calculateDistance(numberOfDays);
+		
+		assertThat(distanceTravelled, is(not(0L)));
 	}
 
 }
