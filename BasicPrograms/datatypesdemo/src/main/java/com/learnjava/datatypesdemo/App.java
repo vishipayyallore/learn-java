@@ -3,7 +3,11 @@ package com.learnjava.datatypesdemo;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.Locale;
+import java.util.Scanner;
 import java.util.function.Consumer;
+
+import com.learnjava.datatypesdemo.common.ILightSpeedCalculator;
+import com.learnjava.datatypesdemo.models.LightSpeedCalculator;
 
 /**
  * Data Types Demo
@@ -17,6 +21,19 @@ public class App {
 		Consumer<String> printMessageConsumer = (message) -> {
 			System.out.println(String.format("***** %s ******", message));	
 		};
+		
+		
+		System.out.println("***** Light Distance Computing *****");
+		ILightSpeedCalculator lightSpeedCalculator = new LightSpeedCalculator();
+		int numberOfDays = 1;
+		System.out.println(String.format("Distance Light can travel in %s in %d days", lightSpeedCalculator.calculateDistance(numberOfDays), numberOfDays));
+		
+		try( Scanner input = new Scanner(System.in) ) {
+	        System.out.print("Enter Number of Days for Light's travel Distance: ");
+	        numberOfDays = input.nextInt();
+		}
+		System.out.println(String.format("Distance Light can travel in %s in %d days", lightSpeedCalculator.calculateDistance(numberOfDays), numberOfDays));
+		System.out.println("***** Light Distance Computing *****");
 		
 		System.out.println(String.format("***** Data Types Demo in (%s)*****", System.getProperty("user.dir")));
 		System.out.printf("%,.2f", 12345678.9);
