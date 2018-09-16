@@ -25,14 +25,14 @@ public class App {
 		System.out.println("***** Light Distance Computing *****");
 		ILightSpeedCalculator lightSpeedCalculator = new LightSpeedCalculator();
 		int numberOfDays = 1;
-		System.out.println(String.format("Distance Light can travel in %s in %d days",
+		System.out.println(String.format("Distance Light can travel in %d in %d days",
 				lightSpeedCalculator.calculateDistance(numberOfDays), numberOfDays));
 
 		try (Scanner input = new Scanner(System.in)) {
 			System.out.print("Enter Number of Days for Light's travel Distance: ");
 			numberOfDays = input.nextInt();
 		}
-		System.out.println(String.format("Distance Light can travel in %s in %d days",
+		System.out.println(String.format("Distance Light can travel in %d in %d days",
 				lightSpeedCalculator.calculateDistance(numberOfDays), numberOfDays));
 		System.out.println("***** Light Distance Computing *****");
 
@@ -57,12 +57,12 @@ public class App {
 		ISquare square = (int x) -> x * x;
 		System.out.println(String.format("Square of 5 is %s", square.calculate(5)));
 
-		executeLambda("Hello Function Expresseion", printString);
-		executeLambda("Hello Function Again", (message) -> System.out.println(message));
-		executeLambda("Hello Function Expresseion", printMessageConsumer);
+		printMessage("Hello Function Expresseion", printString);
+		printMessage("Hello Function Again", (message) -> System.out.println(message));
+		printMessage("Hello Function Expresseion", printMessageConsumer);
 	}
 
-	private static void executeLambda(String value, Consumer<String> method) {
+	private static void printMessage(String value, Consumer<String> method) {
 		method.accept(value);
 	}
 
