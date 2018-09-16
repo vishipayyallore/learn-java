@@ -9,5 +9,5 @@ package com.learnjava.datatypesdemo;
  */
 @FunctionalInterface
 public interface ISquare {
-	int calculate(int x); 
+	int calculate(int x);
 }
