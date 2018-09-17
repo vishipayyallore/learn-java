@@ -61,9 +61,10 @@ public class App {
 		printMessage("Hello Function Expresseion", printString);
 		printMessage("Hello Function Again", (message) -> System.out.println(message));
 		printMessage("Hello Function Expresseion", printMessageConsumer);
-		
+
 		String greetings = sayHello("Shiva Sai", (parameter) -> String.format("Hello %s", parameter));
-		
+		System.out.println(String.format("Output Received from sayHello (%s)", greetings));
+
 	}
 
 	private static void printMessage(String value, Consumer<String> method) {
@@ -74,5 +75,5 @@ public class App {
 		System.out.println("Inside SayHello!");
 		return function.apply(name);
 	}
-	
+
 }
