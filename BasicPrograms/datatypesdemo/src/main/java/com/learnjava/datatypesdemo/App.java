@@ -5,6 +5,7 @@ import java.text.NumberFormat;
 import java.util.Locale;
 import java.util.Scanner;
 import java.util.function.Consumer;
+import java.util.function.Function;
 
 import com.learnjava.datatypesdemo.common.ILightSpeedCalculator;
 import com.learnjava.datatypesdemo.models.LightSpeedCalculator;
@@ -66,4 +67,8 @@ public class App {
 		method.accept(value);
 	}
 
+	private static void sayHello(String name, Function<String, String> function) {
+		function.apply(name);
+	}
+	
 }
