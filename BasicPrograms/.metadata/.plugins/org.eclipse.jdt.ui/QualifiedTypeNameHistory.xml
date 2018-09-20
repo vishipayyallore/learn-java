@@ -19,4 +19,5 @@
     <fullyQualifiedTypeName name="org.omg.CosNaming.IstringHelper"/>
     <fullyQualifiedTypeName name="com.sun.tools.corba.se.idl.constExpr.GreaterThan"/>
     <fullyQualifiedTypeName name="org.hamcrest.core.IsNot"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
 </qualifiedTypeNameHistroy>
