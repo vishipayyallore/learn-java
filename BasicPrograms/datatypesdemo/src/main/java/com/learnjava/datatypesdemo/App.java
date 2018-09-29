@@ -33,6 +33,7 @@ public class App {
 			System.out.print("Enter Number of Days for Light's travel Distance: ");
 			numberOfDays = input.nextInt();
 		}
+		
 		System.out.println(String.format("Distance Light can travel in %d in %d days",
 				lightSpeedCalculator.calculateDistance(numberOfDays), numberOfDays));
 		System.out.println("***** Light Distance Computing *****");
